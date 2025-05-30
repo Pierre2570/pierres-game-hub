@@ -1,0 +1,114 @@
+body {
+  background-color: cyan;
+  font-family: 'Comic Neue', cursive;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-align: center;
+}
+
+.title-link {
+  color: black;
+  text-decoration: none;
+}
+
+.title-link:hover {
+  text-decoration: underline;
+}
+
+header {
+  padding: 20px;
+  background-color: #00bcd4;
+  color: #000;
+}
+
+.nav-button,
+.game-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 28px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.nav-button:hover,
+.game-button:hover {
+  background-color: #444;
+}
+
+main {
+  padding: 20px;
+}
+
+.about-scroll-text {
+  margin-top: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  color: #000;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.youtube-button {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.youtube-button:hover {
+  background-color: darkred;
+}
+
+.fanarts-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.fanarts-button:hover {
+  background-color: darkblue;
+}
+
+.back-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.gallery-images img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}

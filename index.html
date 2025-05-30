@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pierre's Game Hub</title>
+  <meta name="google-site-verification" content="S1L8FrDml9aF0R3n3jH_pVr7SODys6NYM4MqO9LkKcM" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- YouTube Button (top left) -->
+  <a href="https://www.youtube.com/@Pierre2570" target="_blank" class="youtube-button">YouTube</a>
+
+  <!-- Fan Arts Button (top right) -->
+  <button class="fanarts-button" onclick="showFanArts()">Fan Arts</button>
+
+  <header>
+    <h1>
+      <a href="https://discord.gg/qUj8wwYQey" target="_blank" class="title-link">
+        Pierre's Game Hub
+      </a>
+    </h1>
+    <p>Click a button to play one of my games on itch.io and join our Discord server by clicking the title!</p>
+  </header>
+
+  <main id="main-content">
+    <a href="https://pierre2580.itch.io/pierres-war" target="_blank" class="game-button">Pierre's War</a>
+    <a href="https://pierre2580.itch.io/pierres-minigames" target="_blank" class="game-button">Pierre's Minigames</a>
+    <a href="https://pierre2580.itch.io/pierres-virus" target="_blank" class="game-button">Pierre's Virus (not really a game)</a>
+    <a href="https://pierre2580.itch.io/grass" target="_blank" class="game-button">Grass (a sandbox GTAG fan game)</a>
+    <a href="https://pierre2580.itch.io/tag-of-fear-remake-by-pierre" target="_blank" class="game-button">Tag of Fear Remake by Pierre</a>
+
+    <!-- About section -->
+    <section style="margin-top: 60px; max-width: 600px; margin-left: auto; margin-right: auto; text-align: left; padding: 0 20px;">
+      <h2>About This Website</h2>
+      <p>This website is Pierre's personal game hub where he hosts and shares all his itch.io games.</p>
+      <p>You can click any game button above to play one of Pierre's creations. The website also links to his Discord server where players and fans can join the community, chat, and get updates.</p>
+      <p>Enjoy exploring the games, and feel free to join the Discord for more interaction!</p>
+      <p><em>(Website still in beta)</em></p>
+    </section>
+  </main>
+
+  <!-- Fan Arts Gallery (hidden by default) -->
+  <section id="fanarts-gallery" style="display:none; padding: 20px; max-width: 800px; margin: 80px auto 40px auto; text-align: center;">
+    <button class="back-button" onclick="hideFanArts()">Go Back</button>
+    <div class="gallery-images">
+      <!-- Put your images here -->
+      <img src="Fanarts/Bobvr.png" alt="Bobvr" />
+      <img src="Fanarts/Gfgvr.png" alt="GFGVR" />
+      <img src="Fanarts/Goofy.png" alt="Goofy" />
+      <img src="Fanarts/Mrblue.png" alt="Mrblue" />
+      <img src="Fanarts/Sebi8bit.png" alt="Sebi8bit" />
+      <img src="Fanarts/Truewater.png" alt="Truewater" />
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+
+  <script>
+    function showFanArts() {
+      document.getElementById('main-content').style.display = 'none';
+      document.getElementById('fanarts-gallery').style.display = 'block';
+    }
+
+    function hideFanArts() {
+      document.getElementById('fanarts-gallery').style.display = 'none';
+      document.getElementById('main-content').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
